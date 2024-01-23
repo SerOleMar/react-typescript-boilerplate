@@ -1,0 +1,25 @@
+
+react
+react-dom
+- @babel/core
+- @babel/preset-env
+@babel/preset-react
+- babel-loader
+- webpack
+- webpack-cli
+webpack-dev-server
+- html-webpack-plugin
+style-loader
+css-loader
+file-loader
+
+
+typescript
+@types/react
+@types/react-dom
+- @babel/preset-typescript
+
+
+1. Компиляция в dist или build ?
+2. hash через опцию HtmlWebpackPlugin (hash: true) или через filename и chunkFilename?
+3. Зачем exclude в loaders
