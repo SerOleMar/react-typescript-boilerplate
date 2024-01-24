@@ -1,25 +1,35 @@
 
-react
-react-dom
+- react
+- react-dom
 - @babel/core
 - @babel/preset-env
-@babel/preset-react
+- @babel/preset-react
 - babel-loader
 - webpack
 - webpack-cli
-webpack-dev-server
+- webpack-dev-server
 - html-webpack-plugin
-style-loader
-css-loader
+- style-loader
+- css-loader
 file-loader
 
 
-typescript
-@types/react
-@types/react-dom
+- typescript
+- @types/react
+- @types/react-dom
 - @babel/preset-typescript
+
+ЛИШНИЕ:
+- ts-node
 
 
 1. Компиляция в dist или build ?
 2. hash через опцию HtmlWebpackPlugin (hash: true) или через filename и chunkFilename?
 3. Зачем exclude в loaders
+4. Разобраться с опциями tsconfig.json добавить include и exclude
+5. "webpack.Configuration" или "webpack.Configuration as configuretion"
+6. как передать favicon? в HtmlWebpackPlugin (favicon: ...) или напрямую в index.html
+7. настройки tsconfig (https://dev.to/rinconcamilo/setting-up-react-babel-webpack-typescript-without-create-react-app-a9l)?
+8. prettierignore что и как правильно включить?
+9. прехуки!!!!! prettier
+10. stylelint-config-prettier-scss
